@@ -72,7 +72,7 @@ public class ShareCodeUtil {
     }
 
    public static void main(String[] args) {
-       String s = toSerialCode(15);
+       String s = toSerialCode(16);
        System.out.println(s);
        System.out.println(codeToId(s));
    }
